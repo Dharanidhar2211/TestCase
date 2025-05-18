@@ -31,7 +31,7 @@ public class StandAloneTest extends BaseTest
 	public void SubmitOrder(HashMap<String, String> input) throws InterruptedException
 	{
 		
-		
+		//Dharanidhar
 		ProductCatlog productcatlog=landingpage.LoginDetails(input.get("email"), input.get("Password"));
 		List<WebElement> product=productcatlog.GetProducts();
 		productcatlog.AddProductToCart(input.get("item"));
